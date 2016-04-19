@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="NumbersToWordsTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2016-04-19T23:13:41" hostname="epicodus-67.local" time="0.002">
+<testsuite name="NumbersToWordsTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2016-04-19T23:39:13" hostname="epicodus-67.local" time="0.003">
   <properties/>
   <testcase name="convertNumber_returnWord_FiftyOne" classname="NumbersToWordsTest" time="0.001"/>
+  <testcase name="convertNumber_returnWord_ThreeTrillionFourBillionTwoMillionThreeHundredFortyFiveThousandSixHundredAndSeventyEight" classname="NumbersToWordsTest" time="0.0"/>
   <testcase name="convertNumber_returnWord_Zero" classname="NumbersToWordsTest" time="0.0"/>
   <testcase name="convertNumber_returnWord_TwoHundredAndTwelve" classname="NumbersToWordsTest" time="0.0"/>
   <testcase name="convertNumber_returnWord_FourThousandEightHundredAndFifteen" classname="NumbersToWordsTest" time="0.0"/>
   <testcase name="convertNumber_returnWord_FiveThousandThreeHundredAndFiftyOne" classname="NumbersToWordsTest" time="0.0"/>
+  <testcase name="convertNumber_returnWord_FourBillionTwoMillionThreeHundredFortyFiveThousandSixHundredAndSeventyEight" classname="NumbersToWordsTest" time="0.0"/>
   <testcase name="convertNumber_returnWord_fifteen" classname="NumbersToWordsTest" time="0.0"/>
+  <testcase name="convertNumber_returnWord_TwoMillionThreeHundredFortyFiveThousandSixHundredAndSeventyEight" classname="NumbersToWordsTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

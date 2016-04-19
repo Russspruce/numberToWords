@@ -21,7 +21,7 @@ public class NumbersToWordsTest {
   @Test
   public void convertNumber_returnWord_TwoHundredAndTwelve() {
     NumbersToWords testNumbersToWords = new NumbersToWords();
-    String expected = "Two Hundred and Twelve";
+    String expected = "Two Hundred Twelve";
     assertEquals(expected, testNumbersToWords.runNumbersToWords(212));
   }
 
@@ -35,15 +35,43 @@ public class NumbersToWordsTest {
   @Test
   public void convertNumber_returnWord_FourThousandEightHundredAndFifteen() {
     NumbersToWords testNumbersToWords = new NumbersToWords();
-    String expected = "Four Thousand Eight Hundred and Fifteen";
+    String expected = "Four Thousand Eight Hundred Fifteen";
     assertEquals(expected, testNumbersToWords.runNumbersToWords(4815));
   }
 
   @Test
   public void convertNumber_returnWord_FiveThousandThreeHundredAndFiftyOne() {
     NumbersToWords testNumbersToWords = new NumbersToWords();
-    String expected = "Five Thousand Three Hundred and Fifty-One";
+    String expected = "Five Thousand Three Hundred Fifty-One";
     assertEquals(expected, testNumbersToWords.runNumbersToWords(5351));
   }
 
+
+  @Test
+  public void convertNumber_returnWord_TwoMillionThreeHundredFortyFiveThousandSixHundredAndSeventyEight() {
+    NumbersToWords testNumbersToWords = new NumbersToWords();
+    String expected = "Two Million Three Hundred Forty-Five Thousand Six Hundred Seventy-Eight";
+    assertEquals(expected, testNumbersToWords.runNumbersToWords(2345678));
+  }
+
+  // @Test
+  // public void convertNumber_returnWord_TwoMillionThreeHundredFortyFiveThousandSixHundredAndSeventyEight() {
+  //   NumbersToWords testNumbersToWords = new NumbersToWords();
+  //   String expected = "Two Million Three Hundred Forty-Five Thousand Six Hundred Seventy-Eight";
+  //   assertEquals(expected, testNumbersToWords.runNumbersToWords(2345678));
+  // }
+
+  @Test
+  public void convertNumber_returnWord_FourBillionTwoMillionThreeHundredFortyFiveThousandSixHundredAndSeventyEight() {
+    NumbersToWords testNumbersToWords = new NumbersToWords();
+    String expected = "Four Billion Two Million Three Hundred Forty-Five Thousand Six Hundred Seventy-Eight";
+    assertEquals(expected, testNumbersToWords.runNumbersToWords(4002345678L));
+  }
+
+  @Test
+  public void convertNumber_returnWord_ThreeTrillionFourBillionTwoMillionThreeHundredFortyFiveThousandSixHundredAndSeventyEight() {
+    NumbersToWords testNumbersToWords = new NumbersToWords();
+    String expected = "Three Trillion Four Billion Two Million Three Hundred Forty-Five Thousand Six Hundred Seventy-Eight";
+    assertEquals(expected, testNumbersToWords.runNumbersToWords(3004002345678L));
+  }
 }
